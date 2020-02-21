@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Tableau des Items{% endblock %}
+
+{% block body %}
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Nom complet</th>
+                <th scope="col">Code d'objet</th>
+                <th scope="col">Type d'objet</th>
+                <th scope="col">Status de l'objet</th>
+                <th scope="col">Detail</th>
+            </tr>
+        </thead>
+        {% for users in users %}
+            <tr>
+                <th scope="col"> </th>
+                <th scope="col"> </th>
+                <th scope="col"> </th>
+                <th scope="col"> </th>
+                <th scope="col"> </th>
+            </tr>            
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
